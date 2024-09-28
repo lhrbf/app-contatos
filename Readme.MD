@@ -61,5 +61,3 @@ Sinta-se à vontade para contribuir com o projeto! Faça um fork deste repositó
 ## Licença
    ```bash
    Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
-
-   Sinta-se à vontade para ajustar qualquer parte do texto conforme necessário!
