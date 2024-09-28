@@ -21,13 +21,13 @@ def update_contact_route():
     novo_nome = request.form.get('nome')
     novo_numero = request.form.get('numero')
     success = update_contact(contato_id, novo_nome, novo_numero)
-    return jsonify(success=success)  # Retornando um JSON
+    return jsonify(success=success)
 
 @app.route('/delete-contact', methods=['POST'])
 def delete_contact_route():
     contato_id = request.form.get('id')
     success = delete_contact(contato_id)
-    return jsonify(success=success)  # Retornando um JSON
+    return jsonify(success=success)
 
 if __name__ == '__main__':
     app.run(debug=True)
